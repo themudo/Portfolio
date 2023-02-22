@@ -11,7 +11,7 @@ So I took the opportunity that I am currently unemployed and my employment cente
 
 I will structure this according to the scheme that Google offers in the course, with the phases: *ask*, *prepare*, *process*, *analyze*, *share*, and *act*. I will pretend that this is a "legitimate" business case, althoug I genuinely believe that bibliometric analytics could be interested in these analysis.
 
-##Ask
+## Ask
 The case sudy packet suggest a number of questions to be answered in this phase:
 1. What type of company does your client represent, and what are they asking you to accomplish?
 This is a bibliometrics intelligence company, and they want to provide their clients with a tool to predict how many citations a research paper will generate based on the performance in the first year. For this they first would like to see some data analysis on a couple of test cases to see if this would be useful. Stakeholders are the company exacutives, and researchers that want to explore their citation network.
@@ -33,3 +33,9 @@ My "fictional" audience would be the executives of this bibliometric company, bu
 ### Supporting visualizations and key findings 
 ### Based on what you discover, a list of additional deliverables you think would be helpful to include for further exploration 
 ### Your top high-level insights based on your analysis
+
+## Prepare
+
+Thanks to the [Scholia tool](https://scholia.toolforge.org/) and the WikiCite Telegram group, I managed to quickly get the dataset I needed to analyse here. This is an adaptation of queries to Wikidata that Scholia uses for citation patterns across years, dividing by publication. [See this example](https://scholia.toolforge.org/author/Q21341624#citations-by-year).
+
+I prepared four different queries, one for myself (h-index: 17, time of first publication 2007), one for long lived academic
