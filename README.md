@@ -100,4 +100,18 @@ Order by descending year
 
 
 ## Process
-(https://dub01.online.tableau.com/#/site/themudo/views/citations/Painel1?:iid=1)
+I downloaded the query results as .csv files and inspected them in Excel or Notepad++. In the beginning I had used VLOOKUP in excel to match the paper with the year of publication, based on a separate query, but I later figured out how to get it directly in that query, using SPARQL. It is better this way, because VLOOKUP is sensitive to how data is sorted and I was afraid to mess it up.
+I am trying to use Tableau for data visualization, as it was covered on the course, and I didn't have experience with it. The interface is nice and is easy to use, but I am not sure if the data viz's will keep as I am not planning for now to subscribe to their plans (for some reason, it was not saving the viz on the Tableau Public, so I had to open a trial account). So, besides placing the visualization on a interactive dashboard, I tried saving some of the visualizations as images (see below). The dashboard for this exercise is on my profile at [Tableau](https://dub01.online.tableau.com/#/site/themudo/views/citations/Painel1?:iid=1). I also tried some Tableau alternative, such as MS Power BI, Talend Open Studio, Plotly-Dash, etc. But except for Power BI, it was not easy to quickly replicate the data visualization of Tableau.
+
+I removed papers without year of publication from the analysis. If needed I could have checked if that information was available elsewhere, and either added it directly in Wikidata (I might do that later anyway), or just to my csv file. I chose not to do so, because I had plenty of other data and was eager to proceed to the visualization. There were only a couple of papers from E. O. Wilson that didn't have that information on Wikidata.
+
+## Analyze
+Citation data was aggregated by year of citation, and work (i.e. paper). `Years since publication` was calculated by substracting the year the work was published to the year the citing work was published (`Year_since_publication = citing_work_year - cited_work_year`). This variable is an integer >= 0. This was calculated in order to be easier to compare performance between papers.
+
+E. O. Wilson's data had some interesting characteristics. For example, citations were sparse from most of the 1960's through the 2000's. There could be several explanations for this, I think. First, the internet wasn't really around for much of that time, so citations from that period may not be in digital form and are therefore not available; Wikidata may also be biased to more recent publications; So, there are more citations for those periods, but they are not included in the dataset. Another explanation is that the number of academic publications has also been increasing exponentially (see for example [this publication from the NSF](https://ncses.nsf.gov/pubs/nsb20214/publication-output-by-country-region-or-economy-and-scientific-field), allowing each paper to be cited more often in more recent years.
+
+Some publications did not receive citations immediately after publication, but took a number of years before getting them. This could be due again to lack of coverage for earlier years. This hypothesis seems to be corroborated by the fact that removing very early publications also removed most of the publications with this pattern.
+
+From some of the datasets it seems that papers are mostly cited in the first ten years after publication. Citations usually lag one year after publication, but are clearly indicative already of the relative influence of the paper.
+
+
