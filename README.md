@@ -115,6 +115,13 @@ Some publications did not receive citations immediately after publication, but t
 From some of the datasets it seems that papers are mostly cited in the first ten years after publication. Citations usually lag one year after publication, but are clearly indicative already of the relative influence of the paper.
 
 ## Share
+![GThemudo citations per paper year0](https://user-images.githubusercontent.com/3418135/221350321-0076a5b2-9aab-4cb6-9f1b-9bf4dab45789.png)
+
+Line graph showing my citation patterns x years after publication. The article that performed better is also my most cited paper, a [review article about genomic research in non-model organism](https://doi.org/10.1016/j.margen.2016.04.012). Notice that the sum of citations in this graph totals 37, while Google Scholar found [169](https://scholar.google.com/citations?view_op=view_citation&hl=pt-PT&user=KuLozM0AAAAJ&citation_for_view=KuLozM0AAAAJ:CYCckWUYoCcC).
+
+![Most cited papers Mbovis per year per paper](https://user-images.githubusercontent.com/3418135/221350323-a3dedafa-49b4-4b3c-a2fa-a7992ea627dc.png)
+
+Bar graph of citations per year for most cited papers showing *Mycobacterium bovis* as the main topic, by year. This graph is more estheticaly pleasing than the previous one but it is harder to gather patterns for better performing articles.
 
 
 [Planilha 2.pdf](https://github.com/themudo/Portfolio/files/10830633/Planilha.2.pdf)
