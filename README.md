@@ -114,4 +114,11 @@ Some publications did not receive citations immediately after publication, but t
 
 From some of the datasets it seems that papers are mostly cited in the first ten years after publication. Citations usually lag one year after publication, but are clearly indicative already of the relative influence of the paper.
 
+## Share
 
+
+[Planilha 2.pdf](https://github.com/themudo/Portfolio/files/10830633/Planilha.2.pdf)
+[Planilha 3.pdf](https://github.com/themudo/Portfolio/files/10830634/Planilha.3.pdf)
+[citations.pdf](https://github.com/themudo/Portfolio/files/10830635/citations.pdf)
+[Planilha 3-1.pdf](https://github.com/themudo/Portfolio/files/10830636/Planilha.3-1.pdf)
+[Sheet 1.pdf](https://github.com/themudo/Portfolio/files/10830637/Sheet.1.pdf)
