@@ -117,7 +117,9 @@ From some of the datasets it seems that papers are mostly cited in the first ten
 ## Share
 ![GThemudo citations per paper year0](https://user-images.githubusercontent.com/3418135/221350321-0076a5b2-9aab-4cb6-9f1b-9bf4dab45789.png)
 
-Line graph showing my citation patterns x years after publication. The article that performed better is also my most cited paper, a [review article about genomic research in non-model organism](https://doi.org/10.1016/j.margen.2016.04.012). Notice that the sum of citations in this graph totals 37, while Google Scholar found [169](https://scholar.google.com/citations?view_op=view_citation&hl=pt-PT&user=KuLozM0AAAAJ&citation_for_view=KuLozM0AAAAJ:CYCckWUYoCcC).
+Line graph showing my citation patterns x years after publication. The article that performed better is also my most cited paper, a [review article about genomic research in non-model organism](https://doi.org/10.1016/j.margen.2016.04.012). Notice that the sum of citations in this graph totals 37, while Google Scholar found [169](https://scholar.google.com/citations?view_op=view_citation&hl=pt-PT&user=KuLozM0AAAAJ&citation_for_view=KuLozM0AAAAJ:CYCckWUYoCcC). Searching [Open Citations](https://opencitations.net/index/search?text=10.1016%2FJ.MARGEN.2016.04.012) (remember to capitalize the DOI), I found 114 citations. Open Citations has an advantage that the timespan is months is given between the citation and the date of publication. Plotting a simple histogram shows a quite different story, with a consistently high number of citations per year after publication, with the highest number of citations on the second year.
+
+![Next Gen Biology citation per year histogram](https://user-images.githubusercontent.com/3418135/221831188-1e4e108e-3143-4e5e-88c8-2d32d460bfb2.png)
 
 ![Most cited papers Mbovis per year per paper](https://user-images.githubusercontent.com/3418135/221350323-a3dedafa-49b4-4b3c-a2fa-a7992ea627dc.png)
 
